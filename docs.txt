@@ -1,0 +1,7 @@
+VPN: khoavu/R4!L!inC20@1
+gmail:khoa.vu@evizi.com/KaiBug@0977259882 Evizi@2021
+Khoa.Vu@railinc.com/KaiBug@0977259882
+linh.thai@evizi.com/thaitanlinh123
+linh.thai@railinc.com/Nhobmt113@290898
+
+role.equals(RoleHelperCore.DEFAULT_SSO_APP_ADMIN_ROLE_VALUE) || role.equals(RoleHelperCore.DEFAULT_SSO_MARKET_REPORT_ROLE_VALUE
