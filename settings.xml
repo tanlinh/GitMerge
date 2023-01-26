@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <profiles>
+        <profile>
+            <id>nexus</id>
+            <repositories>
+                <repository>
+                    <id>Nexus repository</id>
+                    <url>http://nexus-repo-mgr.tools.railinc.internal/nexus/content/groups/public</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>maven-repo</id>
+                    <name>Maven repository</name>
+                    <url>https://repo1.maven.org/maven2/</url>
+                </repository>
+                <repository>
+                    <id>guvnor-m2-repo</id>
+                    <name>Guvnor M2 Repo</name>
+                    <url>http://vrh6brmsdev01:8231/business-central/maven2/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>Nexus repository</id>
+                    <url>http://nexus-repo-mgr.tools.railinc.internal/nexus/content/groups/public</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>Maven repository</id>
+                    <url>https://repo1.maven.org/maven2/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>guvnor-m2-repo</id>
+                    <url>http://vrh6brmsdev01:8231/business-central/maven2/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </pluginRepository>
+
+            </pluginRepositories>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>nexus</activeProfile>
+    </activeProfiles>
+</settings>
